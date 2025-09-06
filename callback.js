@@ -16,4 +16,12 @@ function callSomeOne(person){
     console.log('calling', person)
 }
 
-pakhiBhai(callSomeOne, 'jodu')
+pakhiBhai(callSomeOne, 'jodu', 'modu')
+
+
+addEventListener('click', ()=>{
+
+})
+
+const addFive = x=>x+5
+[1, 2, 3, 4, 5].map(x=>x+5)
